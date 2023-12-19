@@ -10,25 +10,33 @@ import bedroom2 from "../../../assets/images/bedroom2.jpg";
 import bedroom3 from "../../../assets/images/bedroom3.jpg";
 import "./HomeCarousel.style.scss";
 import MainTitle from "../../../components/MainTitleComponent/MainTitle";
-
 const HomeCarousel = () => {
   return (
     <div>
       <div className="exchange-box">
         <MainTitle title={"Discuss Your Opinion"} />
+        <div className="container">
+    <div className="rectangle" id="rectangle1"></div>
+    <div className="rectangle" id="rectangle2"></div>
+    <div className="rectangle" id="rectangle3"></div>
+    <div className="rectangle" id="rectangle4"></div>
+  </div>
         <div className="carousel-imgs ">
           <Carousel slide={false} indicators={false} controls={false}>
             <Carousel.Item>
+              <div className="carousel-item-shape" />
               <div className="hexagon-container">
                 <img className="carousel-home-img hexagon-img" src={Access1} />
               </div>
             </Carousel.Item>
             <Carousel.Item>
+              <div className="carousel-item-shape" />
               <div className="hexagon-container">
                 <img className="carousel-home-img hexagon-img" src={Access2} />
               </div>
             </Carousel.Item>
             <Carousel.Item>
+              <div className="carousel-item-shape" />
               <div className="hexagon-container">
                 <img className="carousel-home-img hexagon-img" src={Access3} />
               </div>
@@ -73,6 +81,7 @@ const HomeCarousel = () => {
           </div>
           <Carousel slide={false} indicators={false} controls={false}>
             <Carousel.Item>
+              <div className="carousel-item-shape" />
               <div className="hexagon-container">
                 <img
                   className="carousel-home-img hexagon-img"
@@ -81,6 +90,7 @@ const HomeCarousel = () => {
               </div>
             </Carousel.Item>
             <Carousel.Item>
+              <div className="carousel-item-shape" />
               <div className="hexagon-container">
                 <img
                   className="carousel-home-img hexagon-img"
@@ -89,6 +99,7 @@ const HomeCarousel = () => {
               </div>
             </Carousel.Item>
             <Carousel.Item>
+              <div className="carousel-item-shape" />
               <div className="hexagon-container">
                 <img
                   className="carousel-home-img hexagon-img"
@@ -102,16 +113,19 @@ const HomeCarousel = () => {
         <div className="carousel-imgs ">
           <Carousel slide={false} indicators={false} controls={false}>
             <Carousel.Item>
+              <div className="carousel-item-shape" />
               <div className="hexagon-container">
                 <img className="carousel-home-img hexagon-img" src={bedroom1} />
               </div>
             </Carousel.Item>
             <Carousel.Item>
+              <div className="carousel-item-shape" />
               <div className="hexagon-container">
                 <img className="carousel-home-img hexagon-img" src={bedroom2} />
               </div>
             </Carousel.Item>
             <Carousel.Item>
+              <div className="carousel-item-shape" />
               <div className="hexagon-container">
                 <img className="carousel-home-img hexagon-img" src={bedroom3} />
               </div>
