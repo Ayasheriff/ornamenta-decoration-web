@@ -15,22 +15,29 @@ const HomeCarousel = () => {
   return (
     <div>
       <div className="exchange-box">
-      <MainTitle title={"Discuss Your Opinion"}/>
-
+        <MainTitle title={"Discuss Your Opinion"} />
         <div className="carousel-imgs ">
           <Carousel slide={false} indicators={false} controls={false}>
             <Carousel.Item>
-              <img className="carousel-home-img" src={Access1} />
+              <div className="hexagon-container">
+                <img className="carousel-home-img hexagon-img" src={Access1} />
+              </div>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="carousel-home-img" src={Access2} />
+              <div className="hexagon-container">
+                <img className="carousel-home-img hexagon-img" src={Access2} />
+              </div>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="carousel-home-img" src={Access3} />
+              <div className="hexagon-container">
+                <img className="carousel-home-img hexagon-img" src={Access3} />
+              </div>
             </Carousel.Item>
           </Carousel>
           <div className="carousel-titles">
-            <h1 style={{ color: "#082260",marginBlockEnd:"50px" }}>Accessors Items for your home</h1>
+            <h1 style={{ color: "#082260", marginBlockEnd: "50px" }}>
+              Accessors Items for your home
+            </h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industrys standard dummy text
@@ -48,7 +55,9 @@ const HomeCarousel = () => {
 
         <div className="carousel-imgs ">
           <div className="carousel-titles">
-            <h1 style={{ color: "#f2b827" ,marginBlockEnd:"50px"}}>Bathrooms for an inspire view</h1>
+            <h1 style={{ color: "#f2b827", marginBlockEnd: "50px" }}>
+              Bathrooms for an inspire view
+            </h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industrys standard dummy text
@@ -88,7 +97,9 @@ const HomeCarousel = () => {
             </Carousel.Item>
           </Carousel>
           <div className="carousel-titles">
-            <h1 style={{ color: "#082260" ,marginBlockEnd:"50px"}}>Bedrooms for your comfort</h1>
+            <h1 style={{ color: "#082260", marginBlockEnd: "50px" }}>
+              Bedrooms for your comfort
+            </h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industrys standard dummy text
