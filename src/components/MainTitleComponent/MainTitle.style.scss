@@ -1,0 +1,13 @@
+.field-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .field-title{
+      color: #082260;
+    }
+    .field-image{
+      width: 25%;
+      align-self: center;
+      display: flex;
+    }
+  }

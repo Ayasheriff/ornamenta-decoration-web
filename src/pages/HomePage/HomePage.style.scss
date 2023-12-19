@@ -1,0 +1,22 @@
+
+.cards-boxContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  flex-wrap: wrap;
+  .card-box{
+    border: 0;
+    .card-image{
+      border-radius: 0;
+      border: 1px solid #f2b827;
+    }
+    .card-body-box{
+      padding-inline: 0;
+      padding-block: 20px;
+      .card-title{
+        color: #082260;
+      }
+    }
+  }
+}

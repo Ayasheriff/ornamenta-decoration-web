@@ -1,0 +1,22 @@
+.footer-icons-box {
+  background-color: #081635;
+  width: 100%;
+  .icon-styling {
+    background-color: white;
+    border-radius: 0px;
+    border: 1px solid #f2b827;
+    &:hover {
+      background-color: #f2b827;
+    }
+  }
+  .social-icon:hover {
+    color: white !important;
+  }
+  .footer-copyright {
+    background-color: #040d22;
+    color: white;
+    .link-copyright {
+      color: white !important;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+
+.canvas-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #040d22;
+  border-bottom: 1px solid #f2b827;
+  .offcanvas-logo-title {
+    display: flex;
+    flex-direction: row;
+    .nav-logo-canvas {
+      width: 35px;
+      border-right: 2px solid #f2b827;
+      padding-inline-end: 10px;
+    }
+    .logo-canvas-title {
+      justify-content: flex-start;
+      display: flex;
+      margin-inline-start: 10px;
+      color: #f2b827;
+    }
+  }
+}
+.canvas-body {
+  display: flex;
+  flex-direction: column;
+  background-color: #040d22;
+  padding-block: 50px;
+  justify-content: space-between;
+  .canvas-body-items{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.canvas-body-text {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+  color: white;
+  padding: 10px;
+  margin-inline: 20px;
+  .icon-canvas-text {
+    margin-inline: 20px;
+  }
+}
+}

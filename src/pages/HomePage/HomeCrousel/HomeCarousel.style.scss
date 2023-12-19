@@ -1,0 +1,36 @@
+.field-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  .field-title {
+    color: #082260;
+  }
+  .field-image {
+    width: 25%;
+    align-self: center;
+    display: flex;
+  }
+}
+.carousel-imgs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-inline: 100px;
+  .carousel-titles {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 50px;
+    width: 100%;
+    justify-content: center;
+  }
+  .carousel-home-img {
+    width: 300px;
+  }
+}
+.exchange-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-block-end: 50px;
+}
