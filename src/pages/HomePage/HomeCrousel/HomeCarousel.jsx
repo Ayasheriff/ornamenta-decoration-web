@@ -73,13 +73,28 @@ const HomeCarousel = () => {
           </div>
           <Carousel slide={false} indicators={false} controls={false}>
             <Carousel.Item>
-              <img className="carousel-home-img" src={bathroom1} />
+              <div className="hexagon-container">
+                <img
+                  className="carousel-home-img hexagon-img"
+                  src={bathroom1}
+                />
+              </div>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="carousel-home-img" src={bathroom2} />
+              <div className="hexagon-container">
+                <img
+                  className="carousel-home-img hexagon-img"
+                  src={bathroom2}
+                />
+              </div>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="carousel-home-img" src={bathroom3} />
+              <div className="hexagon-container">
+                <img
+                  className="carousel-home-img hexagon-img"
+                  src={bathroom3}
+                />
+              </div>
             </Carousel.Item>
           </Carousel>
         </div>
@@ -87,13 +102,19 @@ const HomeCarousel = () => {
         <div className="carousel-imgs ">
           <Carousel slide={false} indicators={false} controls={false}>
             <Carousel.Item>
-              <img className="carousel-home-img" src={bedroom1} />
+              <div className="hexagon-container">
+                <img className="carousel-home-img hexagon-img" src={bedroom1} />
+              </div>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="carousel-home-img" src={bedroom2} />
+              <div className="hexagon-container">
+                <img className="carousel-home-img hexagon-img" src={bedroom2} />
+              </div>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="carousel-home-img" src={bedroom3} />
+              <div className="hexagon-container">
+                <img className="carousel-home-img hexagon-img" src={bedroom3} />
+              </div>
             </Carousel.Item>
           </Carousel>
           <div className="carousel-titles">
