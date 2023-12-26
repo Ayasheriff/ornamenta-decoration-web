@@ -1,107 +1,101 @@
-.field-box {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  .field-title {
-    color: #082260;
-  }
-  .field-image {
-    width: 25%;
-    align-self: center;
+.all-carousels-box {
+  margin-block: 200px;
+  width: 100%;
+  max-width: 100%;
+  padding-inline: 100px;
+
+  .carousel-imgs {
     display: flex;
+    margin-block: -130px;
+    .image-container {
+      position: relative;
+      width: 350px;
+      margin: 50px;
+      .carousel-home-img {
+        width: 100%;
+        z-index: -1;
+      }
+    }
+    .carousel-titles,
+    .carousel-titles2 {
+      position: relative;
+      padding: 50px;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 1px 1px 10px 5px lightgray;
+      height: 400px;
+      width: 70%;
+      top: 120px;
+      background-color: white;
+    }
+
+    .carousel-titles {
+      right: 100px;
+      z-index: 1;
+    }
+
+    .carousel-titles2 {
+      left: 100px;
+      z-index: 1;
+    }
   }
 }
-.carousel-imgs {
-  width: 100%;
+
+//hexagon shape with small hexagons imgs
+
+.hexagons-box {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  padding-inline: 100px;
-  .carousel-titles {
+  gap: 20px;
+  justify-content: center;
+  .hexagon-container-box {
+    position: relative;
+    width: 300px; /* Adjust the size of the container as needed */
+    height: 300px; /* Adjust the size of the container as needed */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     display: flex;
-    flex-direction: column;
-    margin-inline: 50px;
-    width: 100%;
-    justify-content: center;
+    flex-direction: row;
+    margin-top: -10px;
+   
+
+    .hexagon-image {
+      position: absolute;
+      width: 100%; /* Adjust the size of the image as needed */
+      height: 100%; /* Adjust the size of the image as needed */
+      object-fit: cover;
+      clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+     
+    }
   }
-  .carousel-home-img {
-    width: 300px;
+  & :hover{
+    transform: scale(1.1);
   }
 }
-.exchange-box {
+.hexagons-box2 {
   display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin-block-end: 50px;
-}
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  margin-top: -40px;
+  .hexagon-container-box {
+    position: relative;
+    width: 300px; /* Adjust the size of the container as needed */
+    height: 300px; /* Adjust the size of the container as needed */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
 
-.carousel-item-shape {
-  width: 320px; /* Set the width of the frame container */
-  height: 480px;
-  margin: auto; /* Center the frame container */
-  position: relative;
-  background-color: #082260;
-  clip-path: polygon(50% 0%, 100% 20%, 100% 80%, 50% 100%, 0% 80%, 0% 20%);
-}
-
-.hexagon-container {
-  width: 300px; 
-  height: 450px; 
-  clip-path: polygon(50% 0%, 100% 20%, 100% 80%, 50% 100%, 0% 80%, 0% 20%);
-  overflow: hidden;
-  margin: auto;
-  position: absolute;
-  top: 15px;
-  left: 10px;
-}
-
-.hexagon-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-
-
-.container {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-}
-
-.rectangle {
-  width: 48%; /* Adjust as needed, considering the gap between rectangles */
-  height: 48vh; /* Adjust as needed */
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: 2px solid #fff; /* Optional: Add a border for better visibility */
-}
-
-#rectangle1 {
-  background-image: url("../../../assets/images/home.jpg") ;/* Replace 'your-image.jpg' with your image URL */
-  background-position: top left;
-}
-
-#rectangle2 {
-  background-image: url("../../../assets/images/home.jpg") ;/* Replace 'your-image.jpg' with your image URL */
-  background-position: top right;
-  top: 0;
-  left: 50%;
-}
-
-#rectangle3 {
-  background-image: url("../../../assets/images/home.jpg") ;/* Replace 'your-image.jpg' with your image URL */
-  background-position: bottom left;
-  top: 50%;
-  left: 0;
-}
-
-#rectangle4 {
-  background-image: url("../../../assets/images/home.jpg") ;/* Replace 'your-image.jpg' with your image URL */
-  background-position: bottom right;
-  top: 50%;
-  left: 50%;
+    .hexagon-image {
+      position: absolute;
+      width: 100%; /* Adjust the size of the image as needed */
+      height: 100%; /* Adjust the size of the image as needed */
+      object-fit: cover;
+      clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    }
+  }
+  & :hover{
+    transform: scale(1.1);
+  }
 }

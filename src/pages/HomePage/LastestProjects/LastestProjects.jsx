@@ -111,9 +111,7 @@ const LastestProjects = () => {
                   />
                 ))}
               </div>
-              <div className="middle">
-                <Typography className="text"> hello</Typography>
-              </div>
+           
 
               <div className="show-more" onClick={handleShowMore}>
                 <button>Show More</button>
