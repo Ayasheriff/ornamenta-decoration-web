@@ -1,7 +1,22 @@
-.send-msg-btn{
-    background-color: #f2b827;
-    border: #f2b827;
-    &:hover{
+.container-contact-inputs {
+  padding: 20px;
+  width: 100%;
+
+  .row-contac-inputs {
+    .send-msg-btn {
+      background-color: #f2b827;
+      border: #f2b827;
+      color: white;
+      &:hover {
         background-color: #f8c954;
+      }
     }
+    .contact-info-text{
+        color: grey;
+        display: flex;
+        gap: 10px;
+        font-size: 18px;
+        align-items: center;
+    }
+  }
 }

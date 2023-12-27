@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container p-4">
         {/* <!-- Section: Images --> */}
         <section className="">
-          <div className="row">
+          {/* <div className="row">
             <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
               <div className="bg-image hover-overlay shadow-1-strong rounded">
                 <img
@@ -74,7 +74,7 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
       </div>
       {/* <!-- Grid container --> */}

@@ -1,0 +1,32 @@
+.row-login{
+padding-inline: 100px;
+display: flex;
+flex-direction: row;
+
+align-items: center;
+
+    .login-inputs{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.img-blob-container {
+  display: flex;
+  justify-content: flex-end;
+  .div-blob{
+    width: 500px;
+    height: 300px;
+    background-color: #081635;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    position: absolute;
+    z-index: -2222222;
+    transform: rotate(20deg);
+  }
+  .login-blob {
+    width: 500px;
+    border-radius: 82% 18% 70% 30% / 57% 67% 33% 43% ;
+    border: 2px solid #f2b827;
+  }
+}

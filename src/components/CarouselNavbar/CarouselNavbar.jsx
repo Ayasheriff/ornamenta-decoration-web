@@ -44,7 +44,7 @@ function CarouselNavbar() {
           </Navbar.Brand>
           <div className="navbar-subBody">
             <Nav className="nav-links">
-            <Nav.Link href="/" className="nav-links-title">
+              <Nav.Link href="/Home" className="nav-links-title">
                 Home
               </Nav.Link>
               |
@@ -52,7 +52,10 @@ function CarouselNavbar() {
                 About
               </Nav.Link>
               |
-              <Nav.Link href="/Dashboard/contact-us" className="nav-links-title">
+              <Nav.Link
+                href="/Dashboard/contact-us"
+                className="nav-links-title"
+              >
                 Contact Us
               </Nav.Link>
             </Nav>
@@ -62,7 +65,7 @@ function CarouselNavbar() {
           <HeartCircle size="24" color="#f2b827" />|
           <ShoppingCart size="20" color="#f2b827" />|
           <User className="user-logo" size="20" color="#f2b827" />|
-          <SidebarLeft size="20" color="#f2b827" onClick={toggleShow}/>
+          <SidebarLeft size="20" color="#f2b827" onClick={toggleShow} />
         </div>
       </Navbar>
       <Carousel className="carousel-main" fade data-bs-theme="dark">
@@ -94,7 +97,7 @@ function CarouselNavbar() {
           </Carousel.Item>
         ))}
       </Carousel>
-      <SidebarCanvas handleCloseItem={handleClose} showItem={show}/>
+      <SidebarCanvas handleCloseItem={handleClose} showItem={show} />
     </div>
   );
 }
