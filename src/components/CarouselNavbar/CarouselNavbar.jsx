@@ -44,7 +44,7 @@ function CarouselNavbar() {
           </Navbar.Brand>
           <div className="navbar-subBody">
             <Nav className="nav-links">
-              <Nav.Link href="#" className="nav-links-title">
+            <Nav.Link href="/" className="nav-links-title">
                 Home
               </Nav.Link>
               |
@@ -52,7 +52,7 @@ function CarouselNavbar() {
                 About
               </Nav.Link>
               |
-              <Nav.Link href="#link" className="nav-links-title">
+              <Nav.Link href="/Dashboard/contact-us" className="nav-links-title">
                 Contact Us
               </Nav.Link>
             </Nav>

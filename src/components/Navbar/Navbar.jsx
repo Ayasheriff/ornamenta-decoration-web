@@ -20,13 +20,13 @@ const NavbarComponent = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav-component" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="nav-links-component">
-              <Nav.Link href="#" className="nav-links-title-component">
+              <Nav.Link href="/" className="nav-links-title-component">
                 Home |
               </Nav.Link>
-              <Nav.Link href="#link" className="nav-links-title-component">
+              <Nav.Link href="#link" className="nav-links-title-component" >
                 About |
               </Nav.Link>
-              <Nav.Link href="#link" className="nav-links-title-component">
+              <Nav.Link href="/Dashboard/contact-us" className="nav-links-title-component">
                 Contact Us
               </Nav.Link>
             </Nav>
