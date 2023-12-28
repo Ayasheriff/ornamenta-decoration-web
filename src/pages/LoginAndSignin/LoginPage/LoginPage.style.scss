@@ -1,32 +1,47 @@
-.row-login{
-padding-inline: 100px;
-display: flex;
-flex-direction: row;
+.row-login {
+  padding-inline: 100px;
+  display: flex;
+  flex-direction: row;
 
-align-items: center;
+  align-items: center;
 
-    .login-inputs{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
+  .login-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .login-btn {
+      background-color: #f2b827;
+      color: white;
+      border: #f2b827;
+      width: 30%;
+      margin-block-start: 50px;
     }
+  }
 }
+.img-blob-box{
+// background-image: url("../../../assets/images/decIconBG.png");
 
 .img-blob-container {
   display: flex;
   justify-content: flex-end;
-  .div-blob{
-    width: 500px;
-    height: 300px;
-    background-color: #081635;
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+
+  .div-blob {
+    width: 510px;
     position: absolute;
     z-index: -2222222;
-    transform: rotate(20deg);
+  }
+  .div-blob-icon {
+    position: absolute;
+    filter: grayscale(1);
+    opacity: 0.2;
+    top: -170px;
+    right: 0;
+    width: 1010px;
+    height: 830px;
+    z-index: -55555555555;
   }
   .login-blob {
     width: 500px;
-    border-radius: 82% 18% 70% 30% / 57% 67% 33% 43% ;
-    border: 2px solid #f2b827;
   }
+}
 }

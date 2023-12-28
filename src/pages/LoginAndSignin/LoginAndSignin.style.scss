@@ -1,6 +1,22 @@
 .login-signup-container {
-  padding: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  .log-title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-block: 30px;
+    .logo-title{
+      color: #081635;
+      font-weight: 400;
+      .logo-title-separate{
+        color: #f2b827;
+      }
+    }
+    .logo-subtitle{
+      color: gray;
+    }
+  }
 }
