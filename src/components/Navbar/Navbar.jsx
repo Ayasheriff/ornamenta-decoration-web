@@ -20,7 +20,7 @@ const NavbarComponent = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav-component" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="nav-links-component">
-              <Nav.Link href="/Home" className="nav-links-title-component">
+              <Nav.Link href="/home" className="nav-links-title-component">
                 Home
               </Nav.Link>
               |
@@ -29,7 +29,7 @@ const NavbarComponent = () => {
               </Nav.Link>
               |
               <Nav.Link
-                href="/Dashboard/contact-us"
+                href="/dashboard/contact-us"
                 className="nav-links-title-component"
               >
                 Contact Us

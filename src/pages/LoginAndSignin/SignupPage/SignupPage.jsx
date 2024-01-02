@@ -1,14 +1,14 @@
 import { Button, Col, Row } from "react-bootstrap";
-import loginBlob from "../../../assets/images/loginBlob.png";
-import loginSolidBlob from "../../../assets/images/loginSolidBlob.png";
+import signupBlob from "../../../assets/images/signup-blob.png";
+import signupSolidBlob from "../../../assets/images/signup-blob-div.png";
 import outlineSignupBlob from "../../../assets/images/signup blob-outline.png";
 import decIcon from "../../../assets/images/decIconBG.png";
-import "./LoginPage.style.scss";
+import "./SignupPage.style.scss";
 import { FormControl, FormHelperText, Input, Typography } from "@mui/joy";
 import { Eye, EyeSlash } from "iconsax-react";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-const LoginPage = () => {
+const SignupPage = () => {
   const [visiblePs, setVisiblePs] = useState(true);
   const navigate = useNavigate();
   const toggleVisibility = () => {
@@ -33,8 +33,14 @@ const LoginPage = () => {
   return (
     <Row className="row-login">
       <Col xs={6} className="login-inputs">
-      <Typography className="login-title">Login to your account</Typography>
+      <Typography className="login-title">Sign Up with a new account</Typography>
         <div className="login-inputs">
+        <Typography>User Name</Typography>
+          <Input
+            placeholder="user name"
+            sx={{ height: "50px" }}
+            type="text"
+          />
           <Typography>Email</Typography>
           <form onSubmit={handleSubmit} id="Demo">
             <FormControl>
@@ -80,27 +86,40 @@ const LoginPage = () => {
               )
             }
           />
+          <Typography>Confirm Password</Typography>
+          <Input
+            placeholder="confirm password"
+            sx={{ height: "50px" }}
+            type={visiblePs ? "password" : "text"}
+            endDecorator={
+              visiblePs ? (
+                <EyeSlash onClick={toggleVisibility} />
+              ) : (
+                <Eye onClick={toggleVisibility} />
+              )
+            }
+          />
           <Typography>
-            I don&apos;t have an account
-            <Link to="/signup" className="signup-title">
-              Sign Up
+            I already have an account
+            <Link to="/" className="signup-title">
+              Log In
             </Link>
           </Typography>
         </div>
         <Button className="login-btn" onClick={() => navigate("/home")}>
-          Log In
+          Sign Up
         </Button>
       </Col>
       <Col xs={6} className="img-blob-box">
         <div className="img-blob-container">
           <img src={decIcon} className="div-blob-icon" />
-          <img src={loginSolidBlob} className="div-blob" />
+          <img src={signupSolidBlob} className="div-blob-signup" />
           <img src={outlineSignupBlob} className="outline-blob-signup" />
-          <img src={loginBlob} className="login-blob" />
+          <img src={signupBlob} className="login-blob" />
         </div>
       </Col>
     </Row>
   );
 };
 
-export default LoginPage;
+export default SignupPage;

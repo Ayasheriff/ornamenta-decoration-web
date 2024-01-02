@@ -10,11 +10,13 @@ import NotFound from "./components/NotFoundPage/NotFound";
 import ChatPage from "./pages/DiscussPage/DiscussPage";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import LoginAndSignin from "./pages/LoginAndSignin/LoginAndSignin";
+import SignupPage from "./pages/LoginAndSignin/SignupPage/SignupPage";
+import LoginPage from "./pages/LoginAndSignin/LoginPage/LoginPage";
 
 function App() {
   const Routing = createBrowserRouter([
     {
-      path: "/Home",
+      path: "/home",
       element: <Layout />,
       children: [
         {
@@ -24,18 +26,25 @@ function App() {
       ],
     },
     {
-      path: "/Dashboard",
+      path: "/dashboard",
       element: <LayoutNav />,
       children: [
         { index: true, element: <Dashboard /> },
-        { path: "/Dashboard/Favourites", element: <FavouriteItems /> },
-        { path: "/Dashboard/Shopping", element: <Shopping /> },
-        { path: "/Dashboard/User-account", element: <UserAccount /> },
-        { path: "/Dashboard/Discuss", element: <ChatPage /> },
-        { path: "/Dashboard/contact-us", element: <ContactUs /> },
+        { path: "/dashboard/favourites", element: <FavouriteItems /> },
+        { path: "/dashboard/shopping", element: <Shopping /> },
+        { path: "/dashboard/user-account", element: <UserAccount /> },
+        { path: "/dashboard/discuss", element: <ChatPage /> },
+        { path: "/dashboard/contact-us", element: <ContactUs /> },
       ],
     },
-    { path: "/", element: <LoginAndSignin /> },
+    {
+      path: "/",
+      element: <LoginAndSignin />,
+      children: [
+        { index: true, element: <LoginPage /> },
+        { path: "/signup", element: <SignupPage /> },
+      ],
+    },
     { path: "*", element: <NotFound /> },
   ]);
   return <RouterProvider router={Routing} />;

@@ -26,14 +26,14 @@ const SidebarCanvas = ({ showItem, handleCloseItem }) => {
         </Offcanvas.Header>
         <Offcanvas.Body className="canvas-body">
           <div className="canvas-body-items">
-            <NavLink to="/Home" className="canvas-body-text">
+            <NavLink to="/home" className="canvas-body-text">
               <i
                 className="fa-sharp fa-solid fa-house icon-canvas-text"
                 style={{ color: "#f2b827" }}
               ></i>
               Home
             </NavLink>
-            <NavLink to="/Dashboard" className="canvas-body-text">
+            <NavLink to="/dashboard" className="canvas-body-text">
               <i
                 className="fa-sharp fa-solid fa-gauge icon-canvas-text"
                 style={{ color: "#f2b827" }}
@@ -47,7 +47,7 @@ const SidebarCanvas = ({ showItem, handleCloseItem }) => {
               ></i>
               Projects
             </NavLink>
-            <NavLink to="/Dashboard/Shopping" className="canvas-body-text">
+            <NavLink to="/dashboard/Shopping" className="canvas-body-text">
               <i
                 className="fa-sharp fa-solid fa-store icon-canvas-text"
                 style={{ color: "#f2b827" }}
@@ -61,21 +61,21 @@ const SidebarCanvas = ({ showItem, handleCloseItem }) => {
               ></i>
               Cart Items
             </NavLink>
-            <NavLink to="/Dashboard/Favourites" className="canvas-body-text">
+            <NavLink to="/dashboard/favourites" className="canvas-body-text">
               <i
                 className="fa-sharp fa-solid fa-heart icon-canvas-text"
                 style={{ color: "#f2b827" }}
               ></i>
               Favourite Items
             </NavLink>
-            <NavLink to="/Dashboard/User-account" className="canvas-body-text">
+            <NavLink to="/dashboard/user-account" className="canvas-body-text">
               <i
                 className="fa-sharp fa-solid fa-user icon-canvas-text"
                 style={{ color: "#f2b827" }}
               ></i>
               User Account
             </NavLink>
-            <NavLink to="/Dashboard/Discuss" className="canvas-body-text">
+            <NavLink to="/dashboard/discuss" className="canvas-body-text">
               <i
                 className="fa-sharp fa-solid fa-comments icon-canvas-text"
                 style={{ color: "#f2b827" }}
@@ -83,7 +83,7 @@ const SidebarCanvas = ({ showItem, handleCloseItem }) => {
               Discuss
             </NavLink>
           </div>
-          <NavLink to="/Log-out" className="canvas-body-text">
+          <NavLink to="/" className="canvas-body-text">
             <i
               className="fa-sharp fa-solid fa-right-from-bracket icon-canvas-text"
               style={{ color: "#f2b827" }}

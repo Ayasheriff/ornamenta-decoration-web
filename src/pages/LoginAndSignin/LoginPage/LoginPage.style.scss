@@ -2,46 +2,51 @@
   padding-inline: 100px;
   display: flex;
   flex-direction: row;
-
+  margin-right: 0;
   align-items: center;
-
+  .login-title {
+    font-size: 24px;
+    font-weight: 500;
+  }
   .login-inputs {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    .signup-title {
+      text-decoration: none;
+      font-weight: 600;
+    }
     .login-btn {
       background-color: #f2b827;
       color: white;
       border: #f2b827;
       width: 30%;
-      margin-block-start: 50px;
+      margin-block-start: 30px;
     }
   }
 }
-.img-blob-box{
-// background-image: url("../../../assets/images/decIconBG.png");
+.img-blob-box {
+  .img-blob-container {
+    display: flex;
+    justify-content: flex-end;
 
-.img-blob-container {
-  display: flex;
-  justify-content: flex-end;
-
-  .div-blob {
-    width: 510px;
-    position: absolute;
-    z-index: -2222222;
+    .div-blob {
+      width: 510px;
+      position: absolute;
+      z-index: -2222222;
+    }
+    .div-blob-icon {
+      position: absolute;
+      filter: grayscale(1);
+      opacity: 0.2;
+      top: 0;
+      right: 0;
+      width: 1010px;
+      height: 830px;
+      z-index: -55555555555;
+    }
+    .login-blob {
+      width: 500px;
+    }
   }
-  .div-blob-icon {
-    position: absolute;
-    filter: grayscale(1);
-    opacity: 0.2;
-    top: -170px;
-    right: 0;
-    width: 1010px;
-    height: 830px;
-    z-index: -55555555555;
-  }
-  .login-blob {
-    width: 500px;
-  }
-}
 }
