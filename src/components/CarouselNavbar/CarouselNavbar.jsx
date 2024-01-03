@@ -9,6 +9,7 @@ import decred from "../../assets/images/decred.svg";
 import "./CarouselNavbar.style.scss";
 import { useEffect, useState } from "react";
 import SidebarCanvas from "../SidebarCanvas/SidebarCanvas";
+import ButtonComponent from "../ButtonComponent/ButtonComponent";
 
 function CarouselNavbar() {
   const CarouselImg = [
@@ -90,8 +91,11 @@ function CarouselNavbar() {
                 small change, big difference
               </h5>
               <div className="btns-box">
-                <Button className="projects-btn">Our Projects</Button>
-                <Button className="items-btn">Our Items</Button>
+                <ButtonComponent
+                  className="projects-btn"
+                  title={"Our Projects"}
+                />
+                <ButtonComponent className="items-btn" title={"Our Items"} />
               </div>
             </Carousel.Caption>
           </Carousel.Item>

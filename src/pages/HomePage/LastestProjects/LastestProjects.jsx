@@ -20,6 +20,7 @@ import { TabList, TabPanel, Tabs, Typography } from "@mui/joy";
 import Tab, { tabClasses } from "@mui/joy/Tab";
 import { useState } from "react";
 import MainTitle from "../../../components/MainTitleComponent/MainTitle";
+import ButtonComponent from "../../../components/ButtonComponent/ButtonComponent";
 
 const LastestProjects = () => {
   const [imagesToShow, setImagesToShow] = useState(10);
@@ -111,10 +112,9 @@ const LastestProjects = () => {
                   />
                 ))}
               </div>
-           
 
               <div className="show-more" onClick={handleShowMore}>
-                <button>Show More</button>
+                <ButtonComponent className="show-more" title={"Show More"} />
               </div>
             </div>
           </TabPanel>

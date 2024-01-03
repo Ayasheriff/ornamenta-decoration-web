@@ -2,6 +2,7 @@ import { Input } from '@mui/joy';
 import  { useState } from 'react';
 import "./DiscussPage.style.scss";
 import { Container } from 'react-bootstrap';
+import ButtonComponent from '../../components/ButtonComponent/ButtonComponent';
 
 const ChatPage = () => {
   const [messages, setMessages] = useState([]);
@@ -29,7 +30,7 @@ const ChatPage = () => {
           onChange={(e) => setNewMessage(e.target.value)}
           placeholder="Type your message..."
         />
-        <button onClick={sendMessage}>Send</button>
+        <ButtonComponent  onClick={sendMessage} title={"Send"}/>
       </div>
     </Container>
   );

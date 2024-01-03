@@ -4,14 +4,14 @@
   flex-direction: row;
   margin-right: 0;
   align-items: center;
-  .login-title {
-    font-size: 24px;
-    font-weight: 500;
-  }
   .login-inputs {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    .login-title {
+      font-size: 24px;
+      font-weight: 500;
+      margin-block-end: 30px;
+    }
     .signup-title {
       text-decoration: none;
       font-weight: 600;
@@ -21,7 +21,7 @@
       color: white;
       border: #f2b827;
       width: 30%;
-      margin-block-start: 30px;
+      margin-block-start: 20px;
     }
   }
 }
