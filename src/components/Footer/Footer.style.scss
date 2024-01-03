@@ -1,5 +1,11 @@
+
 .footer-icons-box {
   background-color: #081635;
+  width: 100%;
+  margin-top: auto; /* Push the footer to the bottom */
+  position: static;
+  bottom: 0;
+  left: 0;
   width: 100%;
   .icon-styling {
     background-color: white;

@@ -42,7 +42,7 @@ const SignupPage = () => {
           Sign Up with a new account
         </Typography>
         <FormProvider {...methods}>
-          <form onSubmit={handleSubmit} noValidate autoComplete="off">
+          <form onSubmit={handleSubmit} noValidate autoComplete="on">
             <InputComponent
               title="User Name"
               placeholder="user name"

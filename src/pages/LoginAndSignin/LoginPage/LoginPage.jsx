@@ -37,7 +37,7 @@ const LoginPage = () => {
         <Typography className="login-title">Login to your account</Typography>
 
         <FormProvider {...methods}>
-          <form onSubmit={handleSubmit} noValidate autoComplete="off">
+          <form onSubmit={handleSubmit} noValidate autoComplete="on">
             <InputComponent
               title="Email"
               placeholder="email"
@@ -61,8 +61,8 @@ const LoginPage = () => {
               validation={{
                 required: { value: true, message: "This field is required" },
                 minLength: {
-                  value: 6,
-                  message: "min 6 characters",
+                  value: 8,
+                  message: "min 8 characters",
                 },
               }}
               endDecorator={
