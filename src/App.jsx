@@ -12,6 +12,12 @@ import ContactUs from "./pages/ContactUs/ContactUs";
 import LoginAndSignin from "./pages/LoginAndSignin/LoginAndSignin";
 import SignupPage from "./pages/LoginAndSignin/SignupPage/SignupPage";
 import LoginPage from "./pages/LoginAndSignin/LoginPage/LoginPage";
+import AllDesigns from "./pages/Shopping/AllDesigns/AllDesigns";
+import ResidentialDesign from "./pages/Shopping/ResidentialDesign/ResidentialDesign";
+import EcommericalDesign from "./pages/Shopping/EcommericalDesign/EcommericalDesign";
+import OfficeDesign from "./pages/Shopping/OfficeDesign/OfficeDesign";
+import HospitalDesign from "./pages/Shopping/Hospitaldesign/HospitalDesign";
+import DesignCardDetails from "./components/CardComponent/DesignCardDetails/DesignCardDetails";
 
 function App() {
   const Routing = createBrowserRouter([
@@ -31,10 +37,34 @@ function App() {
       children: [
         { index: true, element: <Dashboard /> },
         { path: "/dashboard/favourites", element: <FavouriteItems /> },
-        { path: "/dashboard/shopping", element: <Shopping /> },
+        {
+          path:"/dashboard/shopping",
+          element: <Shopping />,
+          children: [
+            { index: true, element: <AllDesigns /> },
+            {
+              path: "/dashboard/shopping/residential-design",
+              element: <ResidentialDesign />,
+            },
+            {
+              path: "/dashboard/shopping/ecommercial-design",
+              element: <EcommericalDesign />,
+            },
+            {
+              path: "/dashboard/shopping/office-design",
+              element: <OfficeDesign />,
+            },
+            {
+              path: "/dashboard/shopping/hospital-design",
+              element: <HospitalDesign />,
+            },
+          ],
+        },
         { path: "/dashboard/user-account", element: <UserAccount /> },
         { path: "/dashboard/discuss", element: <ChatPage /> },
         { path: "/dashboard/contact-us", element: <ContactUs /> },
+        { path: "/dashboard/card-details/:category/:value/:id", element: <DesignCardDetails /> },
+
       ],
     },
     {

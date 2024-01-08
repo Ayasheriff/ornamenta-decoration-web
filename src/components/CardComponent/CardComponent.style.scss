@@ -1,0 +1,36 @@
+.cards-boxContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  width: 450px;
+  flex-wrap: wrap;
+  .card-body-box {
+    .cart-title-heart {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .card-title:hover {
+        color: #f2b827;
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+    }
+    .price-star {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .stars-rate {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+    }
+  }
+  .cart-btn {
+    background-color: #f2b827;
+    border-radius: 0;
+    border: none;
+    margin: 0;
+  }
+}

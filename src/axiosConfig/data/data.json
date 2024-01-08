@@ -1,0 +1,588 @@
+{
+  "all-designs": [
+    {
+      "id": 1,
+      "category": "all-designs",
+      "value": "library",
+      "image": "/src/assets/allDesigns/liberary.jpg",
+      "price": 1500,
+      "title": "Books Small Library",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 2,
+      "category": "all-designs",
+      "value": "vase",
+      "image": "/src/assets/allDesigns/La Gardo Tackett IN-4.jpg",
+      "price": 2300,
+      "title": "Random Vase",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 3,
+      "category": "all-designs",
+      "value": "table",
+      "image": "/src/assets/allDesigns/Light Luxury Style Elegant Buffet Table.jpg",
+      "price": 1000,
+      "title": "Reception Buffet Table",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 4,
+      "category": "all-designs",
+      "value": "chair",
+      "image": "/src/assets/allDesigns/Hanging Chair is a Must — Vegan Design.jpg",
+      "price": 1500,
+      "title": "Hanging Chair",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 5,
+      "category": "all-designs",
+      "value": "vase",
+      "image": "/src/assets/allDesigns/Floor Lune Vases.jpg",
+      "price": 1500,
+      "title": "Vase and mirror",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 6,
+      "category": "all-designs",
+      "value": "dinning-table",
+      "image": "/src/assets/allDesigns/Fantastic Dining Table and Chairs by Carpanelli.jpg",
+      "price": 1500,
+      "title": "Dinning Table and Chairs",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 7,
+      "category": "all-designs",
+      "value": "chair",
+      "image": "/src/assets/allDesigns/Furniture.jpg",
+      "price": 1500,
+      "title": "Bear Bumb Chair",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 8,
+      "category": "all-designs",
+      "value": "office",
+      "image": "/src/assets/allDesigns/Encontrar Productos de diseño de Müller Manufaktur en linea.jpg",
+      "price": 1500,
+      "title": "Office Table with side and Chair",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 9,
+      "category": "all-designs",
+      "value": "mirror",
+      "image": "/src/assets/allDesigns/Fall in Love With These Amazing Wall Mirrors.jpg",
+      "price": 1500,
+      "title": "Wall Mirrors",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 10,
+      "category": "all-designs",
+      "value": "chair",
+      "image": "/src/assets/allDesigns/Create a Cozy Boho Bedroom (20 Easy Steps).jpg",
+      "price": 1500,
+      "title": "Cozy Boho Bedroom",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 11,
+      "category": "all-designs",
+      "value": "table",
+      "image": "/src/assets/allDesigns/Discovering Honest Danish Design by Woud — Curate And Display.jpg",
+      "price": 1500,
+      "title": "Animated Circle Table",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 12,
+      "category": "all-designs",
+      "value": "bathroom",
+      "image": "/src/assets/allDesigns/Asymmetrical,Bathroom, Washbasin Mirror, Led, Decorative Mirror, Led Mirror, Mirror,Touch Led , Touch Switch.jpg",
+      "price": 1500,
+      "title": "Bathroom with Led Washbasin Mirror",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 13,
+      "category": "all-designs",
+      "value": "table",
+      "image": "/src/assets/allDesigns/ASTIK Side Table.jpg",
+      "price": 1500,
+      "title": "ASTIK Side Table",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 14,
+      "category": "all-designs",
+      "value": "frame",
+      "image": "/src/assets/allDesigns/5 piece Colorful Canvas Art Paintings Collection __ PlusMinusCo.jpg",
+      "price": 1500,
+      "title": "Canvas Art Paintings",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 15,
+      "category": "all-designs",
+      "value": "kitchen",
+      "image": "/src/assets/allDesigns/30+ Beautiful Kitchen Design Ideas You Need to See! - Nikki's Plate.jpg",
+      "price": 1500,
+      "title": "Kitchen Design",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 16,
+      "category": "all-designs",
+      "value": "bed",
+      "image": "/src/assets/residentialDesign/A Futuristic Family Home From The Far East.jpg",
+      "price": 1500,
+      "title": "Chamois Modern Bed",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    }
+  ],
+  "residential-design": [
+    {
+      "id": 101,
+      "category": "residential",
+      "value": "bed",
+      "image": "/src/assets/residentialDesign/A Futuristic Family Home From The Far East.jpg",
+      "price": 1500,
+      "title": "Chamois Modern Bed",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 102,
+      "category": "residential",
+      "value": "kitchen",
+      "image": "/src/assets/residentialDesign/21+ Clever Small Kitchen Ideas To Make The Space Feel Bigger.jpg",
+      "price": 1500,
+      "title": "Small Kitchen",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 103,
+      "category": "residential",
+      "value": "sofa",
+      "image": "/src/assets/residentialDesign/Alorian Sofa.jpg",
+      "price": 1500,
+      "title": "Alorian Unique Sofa",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 104,
+      "category": "residential",
+      "value": "chair",
+      "image": "/src/assets/residentialDesign/Ian Felton - Sight Unseen.jpg",
+      "price": 1500,
+      "title": "Noisy Boho Chair",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 105,
+      "category": "residential",
+      "value": "chair",
+      "image": "/src/assets/residentialDesign/FLORES.jpg",
+      "price": 1500,
+      "title": "Flores Chair",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 106,
+      "category": "residential",
+      "value": "table",
+      "image": "/src/assets/residentialDesign/Minimalistic Royal Wooden Top Finish Console Table - Large _ Golden.jpg",
+      "price": 1500,
+      "title": "Console Table",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 107,
+      "category": "residential",
+      "value": "table",
+      "image": "/src/assets/residentialDesign/tvTable.jpg",
+      "price": 1500,
+      "title": "TV Console Table",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 108,
+      "category": "residential",
+      "value": "bed",
+      "image": "/src/assets/residentialDesign/west elm x pbt Modernist Captain's Bed _ Pottery Barn Teen.jpg",
+      "price": 1500,
+      "title": "Modernist Captain's Bed",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 109,
+      "category": "residential",
+      "value": "capboard",
+      "image": "/src/assets/residentialDesign/Modern Home Decor Bedroom Design Ideas 2023 _ Bedroom Wall Decoration Ideas_ Home Interior Design.jpg",
+      "price": 1500,
+      "title": "Capboard Wall Decoration",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 110,
+      "category": "residential",
+      "value": "kitchen",
+      "image": "/src/assets/residentialDesign/Stylish Kitchen Peninsula Ideas - Plank and Pillow.jpg",
+      "price": 1500,
+      "title": "Kitchen Peninsula",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 111,
+      "category": "residential",
+      "value": "sofa",
+      "image": "/src/assets/residentialDesign/Sofas.jpg",
+      "price": 1500,
+      "title": "Boho Colors Sofa",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 112,
+      "category": "residential",
+      "value": "chair",
+      "image": "/src/assets/residentialDesign/Peek Inside a Gorgeous 1920s-Era Apartment That's Teeming With Vintage Charm.jpg",
+      "price": 1500,
+      "title": "Vintage Chair",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    }
+  ],
+  "ecommerical-design": [
+    {
+      "id": 201,
+      "category": "ecommerical",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 202,
+      "category": "ecommerical",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 203,
+      "category": "ecommerical",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 204,
+      "category": "ecommerical",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 205,
+      "category": "ecommerical",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 206,
+      "category": "ecommerical",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 207,
+      "category": "ecommerical",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 208,
+      "category": "ecommerical",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 209,
+      "category": "ecommerical",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 210,
+      "category": "ecommerical",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 211,
+      "category": "ecommerical",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 212,
+      "category": "ecommerical",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    }
+  ],
+  "office-design": [
+    {
+      "id": 301,
+      "category": "ecommerical",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 302,
+      "category": "office",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 303,
+      "category": "office",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 304,
+      "category": "office",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 305,
+      "category": "office",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 306,
+      "category": "office",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 307,
+      "category": "office",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 308,
+      "category": "office",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 309,
+      "category": "office",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 310,
+      "category": "office",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 311,
+      "category": "office",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 312,
+      "category": "office",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    }
+  ],
+  "hospital-design": [
+    {
+      "id": 401,
+      "category": "hospital",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 402,
+      "category": "hospital",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 403,
+      "category": "hospital",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 404,
+      "category": "hospital",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 405,
+      "category": "hospital",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 406,
+      "category": "hospital",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 407,
+      "category": "hospital",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 408,
+      "category": "hospital",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 409,
+      "category": "hospital",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 410,
+      "category": "hospital",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 411,
+      "category": "hospital",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    },
+    {
+      "id": 412,
+      "category": "hospital",
+      "value": "",
+      "image": "",
+      "price": 1500,
+      "title": "",
+      "description": ""
+    }
+  ]
+}

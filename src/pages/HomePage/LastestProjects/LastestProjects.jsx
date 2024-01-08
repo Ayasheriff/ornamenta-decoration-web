@@ -16,7 +16,7 @@ import project15 from "../../../assets/images/project15.jpg";
 import project16 from "../../../assets/images/project16.jpg";
 import project17 from "../../../assets/images/project17.jpg";
 import "./LastestProjects.style.scss";
-import { TabList, TabPanel, Tabs, Typography } from "@mui/joy";
+import { TabList, TabPanel, Tabs } from "@mui/joy";
 import Tab, { tabClasses } from "@mui/joy/Tab";
 import { useState } from "react";
 import MainTitle from "../../../components/MainTitleComponent/MainTitle";
