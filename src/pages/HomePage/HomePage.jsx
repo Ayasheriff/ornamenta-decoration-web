@@ -31,11 +31,11 @@ const HomePage = () => {
   return (
     <div>
     <MainTitle title={"Our Work About"}/>
-      <div className="cards-boxContainer">
+      <div className="cards-boxContainer-home">
         {decorationCards.map((card, index) => (
           <Card className="card-box" style={{ width: "27rem" }} key={index}>
             <Card.Img className="card-image" variant="top" src={card.image} />
-            <Card.Body className="card-body-box">
+            <Card.Body className="card-body-box-home">
               <Card.Title className="card-title">{card.title}</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up

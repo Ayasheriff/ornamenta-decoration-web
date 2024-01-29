@@ -1,5 +1,5 @@
 
-.cards-boxContainer{
+.cards-boxContainer-home{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -11,7 +11,7 @@
       border-radius: 0;
       border: 1px solid #f2b827;
     }
-    .card-body-box{
+    .card-body-box-home{
       padding-inline: 0;
       padding-block: 20px;
       .card-title{

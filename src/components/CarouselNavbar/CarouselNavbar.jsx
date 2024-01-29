@@ -1,4 +1,4 @@
-import { Button, Carousel } from "react-bootstrap";
+import {  Carousel } from "react-bootstrap";
 import { Nav, Navbar } from "react-bootstrap";
 import { HeartCircle, ShoppingCart, SidebarLeft, User } from "iconsax-react";
 import carousel1 from "../../assets/images/carousel1.jpeg";
