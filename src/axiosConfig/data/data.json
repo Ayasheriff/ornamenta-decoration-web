@@ -4,7 +4,7 @@
       "id": 1,
       "category": "all-designs",
       "value": "library",
-      "image": "/assets/images/project13.jpg",
+      "image": "/src/assets/allDesigns/liberary.jpg",
       "price": 1500,
       "title": "Books Small Library",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
@@ -13,7 +13,7 @@
       "id": 2,
       "category": "all-designs",
       "value": "vase",
-      "image": "/src/assets/allDesigns/La Gardo Tackett IN-4.jpg",
+      "image": "/src/assets/allDesigns/vaseBlackAndWhite.jpg",
       "price": 2300,
       "title": "Random Vase",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
@@ -22,7 +22,7 @@
       "id": 3,
       "category": "all-designs",
       "value": "table",
-      "image": "/src/assets/allDesigns/Light Luxury Style Elegant Buffet Table.jpg",
+      "image": "/src/assets/allDesigns/comodeWooden.jpg",
       "price": 1000,
       "title": "Reception Buffet Table",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
@@ -31,7 +31,7 @@
       "id": 4,
       "category": "all-designs",
       "value": "chair",
-      "image": "/src/assets/allDesigns/Hanging Chair is a Must — Vegan Design.jpg",
+      "image": "/src/assets/allDesigns/circleChair.jpg",
       "price": 1500,
       "title": "Hanging Chair",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
@@ -40,7 +40,7 @@
       "id": 5,
       "category": "all-designs",
       "value": "vase",
-      "image": "/src/assets/allDesigns/Floor Lune Vases.jpg",
+      "image": "/src/assets/allDesigns/FloorLuneVases.jpg",
       "price": 1500,
       "title": "Vase and mirror",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
@@ -49,7 +49,7 @@
       "id": 6,
       "category": "all-designs",
       "value": "dinning-table",
-      "image": "/src/assets/allDesigns/Fantastic Dining Table and Chairs by Carpanelli.jpg",
+      "image": "/src/assets/allDesigns/FantasticDiningTable.jpg",
       "price": 1500,
       "title": "Dinning Table and Chairs",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
@@ -67,7 +67,7 @@
       "id": 8,
       "category": "all-designs",
       "value": "office",
-      "image": "/src/assets/allDesigns/Encontrar Productos de diseño de Müller Manufaktur en linea.jpg",
+      "image": "/src/assets/allDesigns/officeWoodenTabla.jpg",
       "price": 1500,
       "title": "Office Table with side and Chair",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
@@ -76,7 +76,7 @@
       "id": 9,
       "category": "all-designs",
       "value": "mirror",
-      "image": "/src/assets/allDesigns/Fall in Love With These Amazing Wall Mirrors.jpg",
+      "image": "/src/assets/allDesigns/WallMirrors.jpg",
       "price": 1500,
       "title": "Wall Mirrors",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
@@ -85,7 +85,7 @@
       "id": 10,
       "category": "all-designs",
       "value": "chair",
-      "image": "/src/assets/allDesigns/Create a Cozy Boho Bedroom (20 Easy Steps).jpg",
+      "image": "/src/assets/allDesigns/CozyBoho.jpg",
       "price": 1500,
       "title": "Cozy Boho Bedroom",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
@@ -94,7 +94,7 @@
       "id": 11,
       "category": "all-designs",
       "value": "table",
-      "image": "/src/assets/allDesigns/Discovering Honest Danish Design by Woud — Curate And Display.jpg",
+      "image": "/src/assets/allDesigns/circleTableSteel.jpg",
       "price": 1500,
       "title": "Animated Circle Table",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
@@ -103,7 +103,7 @@
       "id": 12,
       "category": "all-designs",
       "value": "bathroom",
-      "image": "/src/assets/allDesigns/Asymmetrical,Bathroom, Washbasin Mirror, Led, Decorative Mirror, Led Mirror, Mirror,Touch Led , Touch Switch.jpg",
+      "image": "/src/assets/allDesigns/bathroomMirror.jpg",
       "price": 1500,
       "title": "Bathroom with Led Washbasin Mirror",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
@@ -112,7 +112,7 @@
       "id": 13,
       "category": "all-designs",
       "value": "table",
-      "image": "/src/assets/allDesigns/ASTIK Side Table.jpg",
+      "image": "/src/assets/allDesigns/SideTable.jpg",
       "price": 1500,
       "title": "ASTIK Side Table",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
@@ -121,7 +121,7 @@
       "id": 14,
       "category": "all-designs",
       "value": "frame",
-      "image": "/src/assets/allDesigns/5 piece Colorful Canvas Art Paintings Collection __ PlusMinusCo.jpg",
+      "image": "/src/assets/allDesigns/colofulCanvasPaint.jpg",
       "price": 1500,
       "title": "Canvas Art Paintings",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
@@ -130,7 +130,7 @@
       "id": 15,
       "category": "all-designs",
       "value": "kitchen",
-      "image": "/src/assets/allDesigns/30+ Beautiful Kitchen Design Ideas You Need to See! - Nikki's Plate.jpg",
+      "image": "/src/assets/allDesigns/kitchenWhite.jpg",
       "price": 1500,
       "title": "Kitchen Design",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
@@ -139,7 +139,7 @@
       "id": 16,
       "category": "all-designs",
       "value": "bed",
-      "image": "/src/assets/residentialDesign/A Futuristic Family Home From The Far East.jpg",
+      "image": "/src/assets/residentialDesign/bumbBed.jpg",
       "price": 1500,
       "title": "Chamois Modern Bed",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
