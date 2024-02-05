@@ -594,6 +594,15 @@
       "value": "table",
       "image": "/src/assets/allDesigns/comodeWooden.jpg",
       "descreption": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 4,
+      "title": "Hanging Chair",
+      "price": 1500,
+      "category": "all-designs",
+      "value": "chair",
+      "image": "/src/assets/allDesigns/circleChair.jpg",
+      "descreption": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
     }
   ]
 }

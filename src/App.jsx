@@ -18,6 +18,7 @@ import EcommericalDesign from "./pages/Shopping/EcommericalDesign/EcommericalDes
 import OfficeDesign from "./pages/Shopping/OfficeDesign/OfficeDesign";
 import HospitalDesign from "./pages/Shopping/Hospitaldesign/HospitalDesign";
 import DesignCardDetails from "./components/CardComponent/DesignCardDetails/DesignCardDetails";
+import CartCar from "./pages/CartCar/CartCar";
 
 function App() {
   const Routing = createBrowserRouter([
@@ -63,6 +64,7 @@ function App() {
         { path: "/dashboard/user-account", element: <UserAccount /> },
         { path: "/dashboard/discuss", element: <ChatPage /> },
         { path: "/dashboard/contact-us", element: <ContactUs /> },
+        { path: "/dashboard/cart-car", element: <CartCar /> },
         { path: "/dashboard/card-details/:category/:value/:id", element: <DesignCardDetails /> },
 
       ],

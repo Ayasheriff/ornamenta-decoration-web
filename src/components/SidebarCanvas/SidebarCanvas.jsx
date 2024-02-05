@@ -54,7 +54,7 @@ const SidebarCanvas = ({ showItem, handleCloseItem }) => {
               ></i>
               Shopping
             </NavLink>
-            <NavLink to="/Cart" className="canvas-body-text">
+            <NavLink to="/dashboard/cart-car" className="canvas-body-text">
               <i
                 className="fa-sharp fa-solid fa-cart-shopping icon-canvas-text"
                 style={{ color: "#f2b827" }}

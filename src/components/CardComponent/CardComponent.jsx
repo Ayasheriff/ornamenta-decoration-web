@@ -1,10 +1,11 @@
 import { useNavigate } from "react-router-dom";
 import "./CardComponent.style.scss";
 import axios from "axios";
-import { useEffect } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 import ButtonComponent from "../ButtonComponent/ButtonComponent";
 import { Heart, Star1 } from "iconsax-react";
+import { AddToCartContext } from "../../context/AddToCartContext";
 const CardComponent = ({
   title,
   descreption,
@@ -15,13 +16,30 @@ const CardComponent = ({
   value,
 }) => {
   const navigate = useNavigate();
+  const [addData, setAddData] = useState(null);
+
+  const { addToCartFetchData } = useContext(AddToCartContext);
   async function getAllDesigns() {
     const { data } = await axios("/dashboard/card-details/${category}/${value}/${id}");
     console.log("data of card", data);
+    setAddData(addData);
+
   }
   useEffect(() => {
     getAllDesigns();
   }, []);
+  const handleAddToCart = () => {
+    addToCartFetchData({
+      id,
+      title,
+      price,
+      category,
+      value,
+      image,
+      descreption,
+      // Add other necessary properties
+    });
+  };
   return (
     <div className="cards-boxContainer">
       <Card className="card-box" style={{ width: "27rem" }}>
@@ -50,7 +68,7 @@ const CardComponent = ({
               <Star1 variant="Bold" color="#f2b827" size={16} />
             </div>
           </div>
-          <ButtonComponent title={"Add To Cart"} className="cart-btn" />
+          <ButtonComponent title={"Add To Cart"} className="cart-btn" onClick={handleAddToCart}/>
         </Card.Body>
       </Card>
     </div>
