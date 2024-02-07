@@ -105,7 +105,7 @@ const LastestProjects = () => {
                 {visibleImages.map((image, index) => (
                   <img
                     key={index}
-                    style={{ width: "379.8px", border: "1px solid #f2b827" }}
+                    style={{ width: "350px", border: "1px solid #f2b827" }}
                     src={image}
                     alt={`Project ${index + 1}`}
                     className="image-project-details"
@@ -124,7 +124,7 @@ const LastestProjects = () => {
                 {residentialImages.map((image, index) => (
                   <img
                     key={index}
-                    style={{ width: "379.8px", border: "1px solid #f2b827" }}
+                    style={{ width: "350px", border: "1px solid #f2b827" }}
                     src={image}
                     alt={`Project ${index + 1}`}
                     className="image-project-details"
@@ -137,7 +137,7 @@ const LastestProjects = () => {
             <div className="projects-imgs-title">
               <div className="projects-items">
                 <img
-                  style={{ width: "379.8px", border: "1px solid #f2b827" }}
+                  style={{ width: "350px", border: "1px solid #f2b827" }}
                   src={project10}
                 />
               </div>
@@ -149,7 +149,7 @@ const LastestProjects = () => {
                 {officeImages.map((image, index) => (
                   <img
                     key={index}
-                    style={{ width: "379.8px", border: "1px solid #f2b827" }}
+                    style={{ width: "350px", border: "1px solid #f2b827" }}
                     src={image}
                     alt={`Project ${index + 1}`}
                     className="image-project-details"
@@ -164,7 +164,7 @@ const LastestProjects = () => {
                 {hospitalImages.map((image, index) => (
                   <img
                     key={index}
-                    style={{ width: "379.8px", border: "1px solid #f2b827" }}
+                    style={{ width: "350px", border: "1px solid #f2b827" }}
                     src={image}
                     alt={`Project ${index + 1}`}
                     className="image-project-details"

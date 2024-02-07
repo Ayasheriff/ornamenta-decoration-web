@@ -586,14 +586,6 @@
     }
   ],
   "cart": [
-    {
-      "id": 3,
-      "title": "Reception Buffet Table",
-      "price": 1000,
-      "category": "all-designs",
-      "value": "table",
-      "image": "/src/assets/allDesigns/comodeWooden.jpg",
-      "descreption": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
-    }
+   
   ]
 }

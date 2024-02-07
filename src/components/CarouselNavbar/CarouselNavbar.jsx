@@ -1,4 +1,4 @@
-import {  Carousel } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 import { Nav, Navbar } from "react-bootstrap";
 import { HeartCircle, ShoppingCart, SidebarLeft, User } from "iconsax-react";
 import carousel1 from "../../assets/images/carousel1.jpeg";
@@ -10,8 +10,10 @@ import "./CarouselNavbar.style.scss";
 import { useEffect, useState } from "react";
 import SidebarCanvas from "../SidebarCanvas/SidebarCanvas";
 import ButtonComponent from "../ButtonComponent/ButtonComponent";
+import { useNavigate } from "react-router-dom";
 
 function CarouselNavbar() {
+  const navigate = useNavigate();
   const CarouselImg = [
     { id: 1, image: carousel1 },
     { id: 2, image: carousel2 },
@@ -63,8 +65,49 @@ function CarouselNavbar() {
           </div>
         </div>
         <div className="navbar-social">
+          <div
+            style={{
+              width: "12px",
+              height: "12px",
+              backgroundColor: "white",
+              borderRadius: "50px",
+              border: "0.5px solid #f2b827",
+              display: "flex",
+              position: "absolute",
+              right: "240px",
+              top: "30px",
+              color: "#10244f",
+              fontSize: "8px",
+              fontWeight: 900,
+              justifyContent:"center",
+            }}
+          ></div>
           <HeartCircle size="24" color="#f2b827" />|
-          <ShoppingCart size="20" color="#f2b827" />|
+          <div
+            style={{
+              width: "12px",
+              height: "12px",
+              backgroundColor: "white",
+              borderRadius: "50px",
+              border: "0.5px solid #f2b827",
+              display: "flex",
+              position: "absolute",
+              right: "175px",
+              top: "30px",
+              color: "#10244f",
+              fontSize: "8px",
+              fontWeight: 900,
+              justifyContent:"center",
+            }}
+          >
+            5
+          </div>
+          <ShoppingCart
+            size="20"
+            color="#f2b827"
+            onClick={() => navigate("/dashboard/cart-car")}
+          />
+          |
           <User className="user-logo" size="20" color="#f2b827" />|
           <SidebarLeft size="20" color="#f2b827" onClick={toggleShow} />
         </div>
