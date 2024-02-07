@@ -28,7 +28,6 @@ const LoginPage = () => {
   const methods = useForm();
   const onSubmit = methods.handleSubmit((data) => {
     console.log(data);
-
     navigate("/home");
   });
   return (

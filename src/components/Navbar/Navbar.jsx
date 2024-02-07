@@ -84,7 +84,13 @@ const NavbarComponent = () => {
           onClick={() => navigate("/dashboard/cart-car")}
         />
         |
-        <User className="user-logo-component" size="20" color="#f2b827" />|
+        <User
+          className="user-logo-component"
+          size="20"
+          color="#f2b827"
+          onClick={() => navigate("/dashboard/user-account")}
+        />
+        |
         <SidebarLeft size="20" color="#f2b827" onClick={toggleShow} />
         <SidebarCanvas handleCloseItem={handleClose} showItem={show} />
       </div>

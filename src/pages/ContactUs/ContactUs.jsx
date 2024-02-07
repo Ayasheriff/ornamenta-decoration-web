@@ -92,11 +92,41 @@ const ContactUs = () => {
             Pellentesque metus arcu, malesuada a est eget, maximus efficitur
             sapien.
           </p>
-          <p className="contact-info-text"><i className="fa-sharp fa-solid fa-house icon-canvas-text" style={{color: "grey"}}></i>8th floor, 379 Hudson St, New York, NY 10018</p>
-          <p className="contact-info-text"><i className="fa-solid fa-phone fa-phone icon-canvas-text" style={{color: "grey"}}></i>(+2) 01156353163</p>
-          <p className="contact-info-text"><i className="fa-sharp fa-solid fa-pager icon-canvas-text" style={{color: "grey"}}></i>(+1) 96 716 6879</p>
-          <p className="contact-info-text"><i className="fa-sharp fa-solid fa-envelope icon-canvas-text" style={{color: "grey"}}></i>ayasherif477@gmail.com</p>
-          <p className="contact-info-text"><i className="fa-sharp fa-solid fa-clock icon-canvas-text" style={{color: "grey"}}></i>Mon-Fri 09:00 - 17:00</p>
+          <p className="contact-info-text">
+            <i
+              className="fa-sharp fa-solid fa-house icon-canvas-text"
+              style={{ color: "grey" }}
+            ></i>
+            8th floor, 379 Hudson St, New York, NY 10018
+          </p>
+          <p className="contact-info-text">
+            <i
+              className="fa-solid fa-phone fa-phone icon-canvas-text"
+              style={{ color: "grey" }}
+            ></i>
+            (+2) 01156353163
+          </p>
+          <p className="contact-info-text">
+            <i
+              className="fa-sharp fa-solid fa-pager icon-canvas-text"
+              style={{ color: "grey" }}
+            ></i>
+            (+1) 96 716 6879
+          </p>
+          <p className="contact-info-text">
+            <i
+              className="fa-sharp fa-solid fa-envelope icon-canvas-text"
+              style={{ color: "grey" }}
+            ></i>
+            ayasherif477@gmail.com
+          </p>
+          <p className="contact-info-text">
+            <i
+              className="fa-sharp fa-solid fa-clock icon-canvas-text"
+              style={{ color: "grey" }}
+            ></i>
+            Mon-Fri 09:00 - 17:00
+          </p>
         </Col>
       </Row>
     </Container>

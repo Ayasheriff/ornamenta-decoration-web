@@ -1,0 +1,37 @@
+.logo-sign-out {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  .signOut-btn {
+    background-color: #082260;
+    color: white;
+  }
+}
+.inputs-pw-div {
+  .submit-btn {
+    background-color: #082260;
+    color: white;
+    width: 200px;
+  }
+  label {
+    color: #082260;
+    font-weight: 500;
+  }
+}
+
+.user-acc-link {
+  text-decoration: none;
+  color: #082260;
+  font-weight: 500;
+  margin-block: 10px;
+  &.active {
+    color: white;
+    background-color: #f2b827;
+    width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+  }
+ 
+}

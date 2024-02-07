@@ -19,6 +19,8 @@ import OfficeDesign from "./pages/Shopping/OfficeDesign/OfficeDesign";
 import HospitalDesign from "./pages/Shopping/Hospitaldesign/HospitalDesign";
 import DesignCardDetails from "./components/CardComponent/DesignCardDetails/DesignCardDetails";
 import CartCar from "./pages/CartCar/CartCar";
+import ChangePassword from "./pages/UserAccount/ChangePassword/ChangePassword";
+import UserInformation from "./pages/UserAccount/UserInFormation/UserInformation";
 
 function App() {
   const Routing = createBrowserRouter([
@@ -39,7 +41,7 @@ function App() {
         { index: true, element: <Dashboard /> },
         { path: "/dashboard/favourites", element: <FavouriteItems /> },
         {
-          path:"/dashboard/shopping",
+          path: "/dashboard/shopping",
           element: <Shopping />,
           children: [
             { index: true, element: <AllDesigns /> },
@@ -61,12 +63,27 @@ function App() {
             },
           ],
         },
-        { path: "/dashboard/user-account", element: <UserAccount /> },
+        {
+          path: "/dashboard/user-account",
+          element: <UserAccount />,
+          children: [
+            {
+              index: true,
+              element: <ChangePassword />,
+            },
+            {
+              path: "/dashboard/user-account/user-info",
+              element: <UserInformation />,
+            },
+          ],
+        },
         { path: "/dashboard/discuss", element: <ChatPage /> },
         { path: "/dashboard/contact-us", element: <ContactUs /> },
         { path: "/dashboard/cart-car", element: <CartCar /> },
-        { path: "/dashboard/card-details/:category/:value/:id", element: <DesignCardDetails /> },
-
+        {
+          path: "/dashboard/card-details/:category/:value/:id",
+          element: <DesignCardDetails />,
+        },
       ],
     },
     {

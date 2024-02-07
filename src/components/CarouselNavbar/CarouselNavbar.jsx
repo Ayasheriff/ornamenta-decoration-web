@@ -108,7 +108,7 @@ function CarouselNavbar() {
             onClick={() => navigate("/dashboard/cart-car")}
           />
           |
-          <User className="user-logo" size="20" color="#f2b827" />|
+          <User className="user-logo" size="20" color="#f2b827"onClick={()=> navigate("/dashboard/user-account")} />|
           <SidebarLeft size="20" color="#f2b827" onClick={toggleShow} />
         </div>
       </Navbar>
