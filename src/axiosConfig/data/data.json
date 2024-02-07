@@ -586,6 +586,23 @@
     }
   ],
   "cart": [
-   
+    {
+      "id": 6,
+      "title": "Dinning Table and Chairs",
+      "price": 1500,
+      "category": "all-designs",
+      "value": "dinning-table",
+      "image": "/src/assets/allDesigns/FantasticDiningTable.jpg",
+      "descreption": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    },
+    {
+      "id": 2,
+      "title": "Random Vase",
+      "price": 2300,
+      "category": "all-designs",
+      "value": "vase",
+      "image": "/src/assets/allDesigns/vaseBlackAndWhite.jpg",
+      "descreption": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
+    }
   ]
 }
